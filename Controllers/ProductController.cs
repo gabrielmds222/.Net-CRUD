@@ -21,5 +21,20 @@ namespace CrudDotnet.Controllers
             return products;
         }
 
+        [HttpPost]
+        [Route("")]
+        public async Task<ActionResult<Product>> Post([FromServices] DataContext context, [FromBody] Product model)
+        {
+            if(ModelState.IsValid)
+            {
+                context.Products.Add(model);
+                await context.SaveChangesAsync();
+                return model;
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
+        }
     }
 }
