@@ -12,11 +12,5 @@ namespace CrudDotnet.Data
         {
 
         }
-
-    //     protected override void OnConfiguring(
-    //         DbContextOptionsBuilder optionsBuilder) 
-    //         => optionsBuilder.UseSqlServer(connectionString:"DataSource=app.db;Cache=Shared");
-
-    
     }
 }
