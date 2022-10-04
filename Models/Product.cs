@@ -5,7 +5,7 @@ namespace CrudDotnet.Models
     public class Product
     {
         [Key]
-        public int Código { get; set; }
+        public int Codigo { get; set; }
 
         [Required(ErrorMessage = "Este campo é obrigatório")]
         [MaxLength(40, ErrorMessage = "Este campo deve conter entre 3 e 40 caracteres")]
@@ -20,10 +20,10 @@ namespace CrudDotnet.Models
         [Required(ErrorMessage = "Este campo é obrigatório")]
         [Range(1, int.MaxValue, ErrorMessage = "O preço deve ser maior que zero")]
 
-        public decimal Estoque { get; set; }
+        public int Estoque { get; set; }
 
         [Required(ErrorMessage = "Este campo é obrigatório")]
-        public decimal Preco { get; set; }
+        public double Preco { get; set; }
 
         [Required(ErrorMessage = "Este campo é obrigatório")]
         [Range(1, int.MaxValue, ErrorMessage = "O preço deve ser maior que zero")]

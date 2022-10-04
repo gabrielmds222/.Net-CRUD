@@ -38,3 +38,4 @@ C:\Users\usuario\crudDotnet\obj\Debug\netcoreapp3.1\crudDotnet.csproj.CopyComple
 C:\Users\usuario\crudDotnet\obj\Debug\netcoreapp3.1\crudDotnet.dll
 C:\Users\usuario\crudDotnet\obj\Debug\netcoreapp3.1\crudDotnet.pdb
 C:\Users\usuario\crudDotnet\obj\Debug\netcoreapp3.1\crudDotnet.genruntimeconfig.cache
+C:\Users\usuario\crudDotnet\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
